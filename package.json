@@ -1,21 +1,18 @@
 {
   "name": "foodtruck",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A command line tool that displays food truck info for a given day",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "food",
-    "truck",
-    "san",
-    "francisco"
+    "food truck",
+    "san francisco"
   ],
   "author": "Pablo Suarez",
   "license": "ISC",
   "dependencies": {
-    "chalk-pipe": "^2.0.0",
     "inquirer": "^6.2.1",
     "moment": "^2.23.0",
     "request": "^2.88.0"

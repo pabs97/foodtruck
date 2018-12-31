@@ -1,6 +1,5 @@
 'use strict';
 const inquirer = require('inquirer');
-const chalkPipe = require('chalk-pipe');
 const FoodTruckData = require('./lib/foodtruckdata');
 
 // Message to show at every input prompt
@@ -9,7 +8,6 @@ const message = [
   'n - show next page',
   ''
 ].join('\n');
-
 
 
 
@@ -32,6 +30,8 @@ const message = [
       type: 'input',
       name: 'show more',
       message: truckData + '\n' + message,
+
+      // Handle the user input
       validate: (value) => {
 
         // Get the next block of truck info
