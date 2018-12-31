@@ -61,4 +61,6 @@ const message = [
     throw error;
   }
 
+  process.exit(0);
+
 })();
