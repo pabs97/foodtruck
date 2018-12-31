@@ -7,8 +7,6 @@ const FoodTruckData = require('./lib/foodtruckdata');
 const message = [
   'Enter one of the following:',
   'n - show next page',
-  // 'p - show previous page',
-  // 'q - quit',
   ''
 ].join('\n');
 
@@ -35,12 +33,6 @@ const message = [
       name: 'show more',
       message: truckData + '\n' + message,
       validate: (value) => {
-
-        // Set the exit condition and don't show anymore truck info
-        // if (value === 'q') {
-        //   exit = true;
-        //   return true;
-        // }
 
         // Get the next block of truck info
         if (value === 'n') {
