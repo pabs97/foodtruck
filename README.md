@@ -1,20 +1,20 @@
-# foodtruck
+# foodtruck #
 This is a command line tool to find food trucks location in San Francisco for the current day
 
-## Getting Started
+## Getting Started ##
 This is only supported in Mac OSX
 
-### Prerequisites
+### Prerequisites ###
 Node v8.0+ is required
 Installers https://nodejs.org/en/download/
 
-### Installing
+### Installing ###
 Go to project directory in Terminal
-<code>npm install<code>
+`npm install`
 
-## Running
+## Running ##
 Enter the command
-<code>node index.js<code>
+`node index.js`
 
 The program will output 10 food trucks at a time.
 Enter 'n' to see the next 10.
