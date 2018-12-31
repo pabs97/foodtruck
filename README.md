@@ -9,12 +9,10 @@ Node v8.0+ is required
 Installers https://nodejs.org/en/download/
 
 ### Installing ###
-Go to project directory in Terminal
-`npm install`
+Go to project directory in Terminal and run `npm install`
 
 ## Running ##
-Enter the command
-`node index.js`
+Enter the command `node index.js`
 
 The program will output 10 food trucks at a time.
 Enter 'n' to see the next 10.
