@@ -6,6 +6,7 @@ This is only supported in Mac OSX
 
 ### Prerequisites ###
 Node v8.0+ is required
+
 Installers https://nodejs.org/en/download/
 
 ### Installing ###
