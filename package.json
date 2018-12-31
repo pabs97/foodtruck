@@ -10,7 +10,7 @@
     "food truck",
     "san francisco"
   ],
-  "author": "Pablo Suarez",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.2.1",
